@@ -1,7 +1,11 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<script>export default {
+  data() {
+    return {
+       user:{name:'lma'}
+    }
+  }
+}</script>
 
 <template>
-  <HelloWorld />
+  <h1>名字：{{user.name}}</h1>
 </template>
